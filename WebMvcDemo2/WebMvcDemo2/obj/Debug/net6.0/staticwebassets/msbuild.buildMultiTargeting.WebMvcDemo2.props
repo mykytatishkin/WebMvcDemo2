@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/WebMvcDemo2.props" />
+</Project>
