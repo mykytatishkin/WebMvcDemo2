@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JtHbQVWcJNxf8+F/Are2exzTnPvmnpZtjW+ZeSHp0KId7PK003JakK522ODFcrDUfErDik02Kdc8Qhjp2YPogw==",
+  "dgSpecHash": "5tgUlqbzk129Ks3pFScZm6GnE4he8N8OafZ6d3ZgsZMhjDmhtGZoJ1uNYPVim89YwqLCTw5/Gu8Sgw4idseoIw==",
   "success": true,
-  "projectFilePath": "/Users/mykytatishkin/Projects/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2.csproj",
+  "projectFilePath": "/Users/mykytatishkin/Documents/GitHub/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2.csproj",
   "expectedPackageFiles": [
     "/Users/mykytatishkin/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/mykytatishkin/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

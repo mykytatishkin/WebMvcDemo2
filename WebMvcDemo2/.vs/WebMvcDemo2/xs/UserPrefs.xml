@@ -1,36 +1,40 @@
 ﻿<Properties StartupConfiguration="{48D8A96D-B7BE-4456-926E-3E0090970C20}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.WebMvcDemo2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebMvcDemo2/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.WebMvcDemo2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebMvcDemo2/Controllers/StudentsController.cs">
     <Files>
-      <File FileName="WebMvcDemo2/appsettings.json" Line="10" Column="133" />
-      <File FileName="WebMvcDemo2/Program.cs" Line="7" Column="1" />
+      <File FileName="WebMvcDemo2/appsettings.json" />
+      <File FileName="WebMvcDemo2/Program.cs" Line="25" Column="1" />
       <File FileName="WebMvcDemo2/Controllers/StudentsController.cs" Line="1" Column="1" />
+      <File FileName="WebMvcDemo2/Models/Student.cs" Line="11" Column="21" />
+      <File FileName="WebMvcDemo2/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="WebMvcDemo2/Views/Students/Index.cshtml" Line="1" Column="1" />
+      <File FileName="WebMvcDemo2/Views/Students/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="WebMvcDemo2/Views/Students/Details.cshtml" Line="1" Column="1" />
+      <File FileName="WebMvcDemo2/Views/Students/Delete.cshtml" Line="1" Column="1" />
+      <File FileName="WebMvcDemo2/Views/Students/Create.cshtml" Line="14" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WebMvcDemo2" expanded="True">
-            <Node name="WebMvcDemo2" expanded="True">
+            <Node name="WebMvcDemo2">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="StudentsController.cs" selected="True" />
+              </Node>
               <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

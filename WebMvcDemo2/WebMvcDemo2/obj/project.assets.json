@@ -11183,11 +11183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mykytatishkin/Projects/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2.csproj",
+      "projectUniqueName": "/Users/mykytatishkin/Documents/GitHub/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2.csproj",
       "projectName": "WebMvcDemo2",
-      "projectPath": "/Users/mykytatishkin/Projects/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2.csproj",
+      "projectPath": "/Users/mykytatishkin/Documents/GitHub/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2.csproj",
       "packagesPath": "/Users/mykytatishkin/.nuget/packages/",
-      "outputPath": "/Users/mykytatishkin/Projects/WebMvcDemo2/WebMvcDemo2/obj/",
+      "outputPath": "/Users/mykytatishkin/Documents/GitHub/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mykytatishkin/.nuget/NuGet/NuGet.Config"
