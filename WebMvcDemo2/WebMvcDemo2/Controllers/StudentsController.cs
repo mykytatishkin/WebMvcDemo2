@@ -56,10 +56,27 @@ namespace WebMvcDemo2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Group,Rate")] Student student)
+        public async Task<IActionResult> Create([Bind("Id,Name,Group,Rate")] Student student, IFormFile Avatar)
         {
             if (ModelState.IsValid)
             {
+                string base64 = string.Empty;
+                if(Avatar != null)
+                {
+                    /*
+                     * using(MemoryString ms = new MemeoryString())
+                     * {}
+                     */
+
+                    MemoryStream ms = new MemoryStream();
+                    Avatar.OpenReadStream().CopyTo(ms);
+                    ms.Seek(0, SeekOrigin.Begin);
+                    byte[] data = ms.ToArray();
+                    base64 = Convert.ToBase64String(data);
+                    student.Avatar = base64;
+                    // ms.Close(); // Wrong way to close
+                    ms.Dispose();
+                }
                 _context.Add(student);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

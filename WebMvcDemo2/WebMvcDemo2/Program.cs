@@ -9,7 +9,7 @@ namespace WebMvcDemo2
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddDbContext<StudentContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("StudentContext") ?? throw new InvalidOperationException("Connection string 'StudentContext' not found.")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("StudentContextPC") ?? throw new InvalidOperationException("Connection string 'StudentContext' not found.")));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

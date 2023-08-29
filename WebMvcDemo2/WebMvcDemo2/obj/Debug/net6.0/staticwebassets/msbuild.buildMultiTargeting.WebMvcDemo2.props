@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/WebMvcDemo2.props" />
+  <Import Project="..\build\WebMvcDemo2.props" />
 </Project>

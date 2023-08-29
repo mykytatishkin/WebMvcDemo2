@@ -10,7 +10,7 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
             <th>
@@ -22,7 +22,8 @@
             <th>
                 @Html.DisplayNameFor(model => model.Rate)
             </th>
-            <th></th>
+            <th>Image</th>
+            <th>Links</th>
         </tr>
     </thead>
     <tbody>
@@ -36,6 +37,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Rate)
+            </td>
+            <td>
+                <img src="data:image/png;base64,@item.Avatar" alt="Picture">
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
