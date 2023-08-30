@@ -13,12 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\images\\Clifford_Simak.jpg",
-      "PackagePath": "staticwebassets\\images\\Clifford_Simak.jpg"
+      "Id": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\images\\Alan_Parsons.jpg",
+      "PackagePath": "staticwebassets\\images\\Alan_Parsons.jpg"
     },
     {
-      "Id": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\images\\Isaac_Azimov.jpg",
-      "PackagePath": "staticwebassets\\images\\Isaac_Azimov.jpg"
+      "Id": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\images\\Brad_Pitt.jpg",
+      "PackagePath": "staticwebassets\\images\\Brad_Pitt.jpg"
+    },
+    {
+      "Id": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\images\\Clifford_Simak.jpg",
+      "PackagePath": "staticwebassets\\images\\Clifford_Simak.jpg"
     },
     {
       "Id": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\images\\ray_bradbury.jpg",

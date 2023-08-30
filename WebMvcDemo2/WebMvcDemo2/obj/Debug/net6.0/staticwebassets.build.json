@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R/EPXJ4l0UUjeoIMJOJtz6tH9Ykl4AOB3Lglb7uSLmA=",
+  "Hash": "FuZCkdMKORnzpMYBzqb9JxZkxVMn7q85y3/yoNiLh/0=",
   "Source": "WebMvcDemo2",
   "BasePath": "_content/WebMvcDemo2",
   "Mode": "Default",
@@ -85,6 +85,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\images\\Alan_Parsons.jpg",
+      "SourceId": "WebMvcDemo2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\",
+      "BasePath": "_content/WebMvcDemo2",
+      "RelativePath": "images/Alan_Parsons.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Alan_Parsons.jpg"
+    },
+    {
+      "Identity": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\images\\Brad_Pitt.jpg",
+      "SourceId": "WebMvcDemo2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\",
+      "BasePath": "_content/WebMvcDemo2",
+      "RelativePath": "images/Brad_Pitt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Brad_Pitt.jpg"
+    },
+    {
       "Identity": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\images\\Clifford_Simak.jpg",
       "SourceId": "WebMvcDemo2",
       "SourceType": "Discovered",
@@ -100,23 +134,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Clifford_Simak.jpg"
-    },
-    {
-      "Identity": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\images\\Isaac_Azimov.jpg",
-      "SourceId": "WebMvcDemo2",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\",
-      "BasePath": "_content/WebMvcDemo2",
-      "RelativePath": "images/Isaac_Azimov.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Isaac_Azimov.jpg"
     },
     {
       "Identity": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\wwwroot\\images\\ray_bradbury.jpg",

@@ -16,9 +16,18 @@ namespace WebMvcDemo2.Controllers
             _context = context;
             _env = env;
         }
-        public async Task<IActionResult> IndexAsync()
+
+        [HttpGet]
+        public async Task<IActionResult> IndexAsync(int LibraryId)
         {
-            ViewBag.Libraries = await _context.Library.ToListAsync();
+            //select * from library
+            ViewBag.Libraries = await _context.Library.ToListAsync();   
+            if(LibraryId > 0)
+            {
+                //select * from picture where libraryid = LibraryId
+                ViewBag.Pictures = await _context.Picture.Where( p => p.LibraryId == LibraryId).ToListAsync();
+            }
+
             return View();
         }
 
@@ -41,7 +50,7 @@ namespace WebMvcDemo2.Controllers
             foreach(IFormFile item in ImageUrl)
             {
                 string path = Path.Combine(_env.WebRootPath, "images", item.FileName);
-                Picture pic = new Picture() { LibraryId = picture.LibraryId, ImageUrl = path };
+                Picture pic = new Picture() { LibraryId = picture.LibraryId, ImageUrl = "/images/"+ item.FileName };
                 list.Add(pic);
                 var stream = new FileStream(path, FileMode.Create);
                 item.CopyToAsync(stream);
