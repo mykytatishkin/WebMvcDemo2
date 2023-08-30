@@ -8,4 +8,4 @@
         public double Rate { get; set; }
         public string? Avatar { get; set; }
     }
-}                   
+}

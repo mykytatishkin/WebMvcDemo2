@@ -14,6 +14,7 @@ namespace WebMvcDemo2.Controllers
     {
         private readonly StudentContext _context;
 
+        //DI
         public StudentsController(StudentContext context)
         {
             _context = context;
@@ -46,14 +47,14 @@ namespace WebMvcDemo2.Controllers
         }
 
         // GET: Students/Create
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
         // POST: Students/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Group,Rate")] Student student, IFormFile Avatar)
@@ -63,19 +64,14 @@ namespace WebMvcDemo2.Controllers
                 string base64 = string.Empty;
                 if(Avatar != null)
                 {
-                    /*
-                     * using(MemoryString ms = new MemeoryString())
-                     * {}
-                     */
-
-                    MemoryStream ms = new MemoryStream();
-                    Avatar.OpenReadStream().CopyTo(ms);
-                    ms.Seek(0, SeekOrigin.Begin);
-                    byte[] data = ms.ToArray();
-                    base64 = Convert.ToBase64String(data);
-                    student.Avatar = base64;
-                    // ms.Close(); // Wrong way to close
-                    ms.Dispose();
+                    using (MemoryStream ms = new MemoryStream())
+                    {
+                        Avatar.OpenReadStream().CopyTo(ms);
+                        ms.Seek(0, SeekOrigin.Begin);
+                        byte[] data = ms.ToArray();
+                        base64 = Convert.ToBase64String(data);
+                        student.Avatar = base64;
+                    }
                 }
                 _context.Add(student);
                 await _context.SaveChangesAsync();
@@ -101,8 +97,6 @@ namespace WebMvcDemo2.Controllers
         }
 
         // POST: Students/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Group,Rate")] Student student)

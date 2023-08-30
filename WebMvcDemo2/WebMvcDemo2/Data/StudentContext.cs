@@ -14,8 +14,10 @@ namespace WebMvcDemo2.Data
         {
         }
 
-        public DbSet<WebMvcDemo2.Models.Student> Student { get; set; } = default!;
-        public DbSet<WebMvcDemo2.Models.Library> Library { get; set; } = default!;
-        public DbSet<WebMvcDemo2.Models.Picture> Picture { get; set; } = default!;
+        public DbSet<WebMvcDemo2.Models.Student> Student { get; set; }
+        public DbSet<WebMvcDemo2.Models.Library> Library { get; set; }
+        public DbSet<WebMvcDemo2.Models.Picture> Picture { get; set; }
     }
 }
+//ORM   Object Relational Mapping
+//  App (objects)       ->      DB (tables)

@@ -5,8 +5,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
-
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -39,7 +37,7 @@
                 @Html.DisplayFor(modelItem => item.Rate)
             </td>
             <td>
-                <img src="data:image/png;base64,@item.Avatar" alt="Picture">
+                    <img src="data:image/png;base64,@item.Avatar" alt="Picture" height="100" />
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
