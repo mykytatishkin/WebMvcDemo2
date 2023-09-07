@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{48D8A96D-B7BE-4456-926E-3E0090970C20}|Default">
+  <MonoDevelop.Ide.ItemProperties.WebMvcDemo2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebMvcDemo2/Views/Students/Details.cshtml">
+    <Files>
+      <File FileName="WebMvcDemo2/appsettings.json" Line="10" Column="133" />
+      <File FileName="WebMvcDemo2/Views/Students/Details.cshtml" Line="33" Column="85" />
+      <File FileName="WebMvcDemo2/Views/Students/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="WebMvcDemo2/Views/Students/Index.cshtml" Line="40" Column="96" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebMvcDemo2">
+            <Node name="WebMvcDemo2">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Views">
+                <Node name="Students">
+                  <Node name="Details.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

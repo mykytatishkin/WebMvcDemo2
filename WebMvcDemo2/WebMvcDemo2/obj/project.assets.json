@@ -11178,26 +11178,26 @@
     ]
   },
   "packageFolders": {
-    "D:\\Cache\\NuGet\\packages": {}
+    "/Users/mykytatishkin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\WebMvcDemo2.csproj",
+      "projectUniqueName": "/Users/mykytatishkin/Documents/GitHub/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2.csproj",
       "projectName": "WebMvcDemo2",
-      "projectPath": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\WebMvcDemo2.csproj",
-      "packagesPath": "D:\\Cache\\NuGet\\packages",
-      "outputPath": "D:\\Step\\Azure121\\WebMvcDemo2\\WebMvcDemo2\\obj\\",
+      "projectPath": "/Users/mykytatishkin/Documents/GitHub/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2.csproj",
+      "packagesPath": "/Users/mykytatishkin/.nuget/packages/",
+      "outputPath": "/Users/mykytatishkin/Documents/GitHub/WebMvcDemo2/WebMvcDemo2/WebMvcDemo2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/mykytatishkin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/local/share/dotnet/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11260,7 +11260,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
       }
     }
   }
